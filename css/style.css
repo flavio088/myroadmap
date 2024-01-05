@@ -15,3 +15,14 @@ body * {
      color: #ffffff
 }
 
+#container{
+     margin: auto;
+}
+
+#painel{
+     text-align: center;
+}
+
+#textos {
+     text-align: center;
+}
