@@ -1,6 +1,17 @@
+* {
+     padding:0;
+     margin:0;
+   }
+
 body{
-     background-image: url(../css/image/backgroud.jpg);
-     background-repeat: no-repeat;
+     background-image: url(../css/image/backs.jpg);
+     background-repeat: no-repeat   ;
      background-position: top center;
      background-size: cover;
 }
+
+body * {
+     font-family: 'Inter', sans-serif;
+     color: #ffffff
+}
+
