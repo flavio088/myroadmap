@@ -1,25 +1,32 @@
+
 * {
      padding:0;
      margin:0;
+     -webkit-transition: all .2s ease-in-out;
+     -moz-transition: all .2s ease-in-out;
+     -o-transition: all .2s ease-in-out;
+     transition: all .2s ease-in-out;
    }
 
 body{
-     background-image: url(../css/image/backs.jpg);
+     background-image: url(../css/image/backs.jpg) ;
      background-repeat: no-repeat   ;
      background-position: top center;
      background-size: cover;
+     margin: 0;
+     text-align: center;
+     
 }
+
+
 
 body * {
      font-family: 'Inter', sans-serif;
      color: #ffffff
 }
 
-#container{
-     margin: auto;
-}
-
-#painel{
+.painel{
+     padding:0;
      text-align: center;
 }
 
